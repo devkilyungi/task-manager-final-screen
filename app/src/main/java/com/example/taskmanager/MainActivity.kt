@@ -47,7 +47,6 @@ fun AllTasksCompleteCard(modifier: Modifier = Modifier) {
         modifier = modifier.fillMaxSize()
     ) {
         val image = painterResource(id = R.drawable.check)
-
         Image(
             painter =  image,
             contentDescription = null
